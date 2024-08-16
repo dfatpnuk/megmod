@@ -1,5 +1,16 @@
 import numpy as np
 #import networkx as nx
+
+
+# Chris advice
+# Code it twice
+# K=0
+# Warmup run (no generation)
+# Then run again with adding the edges.
+# What is the advantage over KDB?
+# focus on generation, not on structure learning
+# ganblr ++ is cheating, as we learn the strucutre prior. 
+# Send to STM
 from .pyitlib import discrete_random_variable as drv
 def build_graph(X, y, k=2):
   '''
